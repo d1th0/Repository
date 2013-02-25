@@ -8,6 +8,7 @@ if (Meteor.isServer) {
 
  Template.asd.events({
  	'keyup #url' : function(evt) {
+ 		Pixastic.process($('#toBlur')[0],"blur");
  		if(evt.keyCode == 13){
 	 		var query = $('#url').val();
  			Session.set("lastSearch", query);
