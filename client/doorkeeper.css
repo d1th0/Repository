@@ -1,0 +1,48 @@
+/*		--- DoorKeeper ---		*/
+
+body {
+	font-family:myriad pro,helvetica,sans serif;
+	background-image:url('../lef.jpg'); 
+	background-repeat:no-repeat;
+	background-position:center; 
+	
+}
+#AirBlock {
+	margin: -1% -1% -1% -1%;
+	display:block;
+	padding-top: 18%;
+}
+#DoorBox {
+ 	border: 1px dashed black;
+ 	margin-left: auto ;
+  	margin-right: auto ;
+  	width: 600px;
+	height: 180px;
+	text-align:center;
+}
+.center {
+	margin-left: auto;
+  	margin-right: auto;
+  	margin:auto;
+  	text-align:center;
+}
+
+.DoorTitle {
+	left:50%;
+	top:50%;
+	font-size:140%; 
+	font-weight:normal;
+	
+}
+
+
+/*		--- Blogg ---			*/
+
+
+#blogg {{
+	background-image:url(' ????? '); 	/* Bakgrunden ska sitta fast oavset om du skrollar ner i inläggen eller inte */
+	background-repeat:repeat-x;
+	display:block;
+	margin-left:15%;					/* 15% Luftblock på sidorna */
+	margin-right:15%
+}

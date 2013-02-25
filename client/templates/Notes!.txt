@@ -1,0 +1,22 @@
+Notes!
+
+LAST SEARCHES!
+
+<!-- Body -->
+ {{> lastSearch}} 
+
+
+<!-- html template -->
+<template name="lastSearch">
+  {{#if lastSearch}}
+    <div class="DoorTitle center ">you last searched for {{lastSearch}}</div>
+  {{/if}}
+  <ul>
+    {{#each lastSearches}}
+      <li>{{query}}</li>
+    {{else}}
+      No last searches
+    {{/each}}
+  </ul>
+</template>
+

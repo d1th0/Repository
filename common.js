@@ -1,0 +1,1 @@
+Searches = new Meteor.Collection("searches");
